@@ -4,10 +4,11 @@ type Props = {
 
 export const App = ({ name }: Props) => {
   const a: string = 'Lorem ipsum'
+  const b: string = 'Dolor sit amet'
 
   return (
     <div>
-      {name} {a}
+      {name} {a} {b}
     </div>
   )
 }
