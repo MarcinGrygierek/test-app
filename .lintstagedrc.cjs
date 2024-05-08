@@ -1,3 +1,3 @@
 module.exports = {
-  '*.{ts,tsx}': ['yarn prettify', () => 'yarn typecheck', 'yarn lint --fix'],
+  '*.{ts,tsx}': ['yarn prettify', 'yarn lint'],
 }

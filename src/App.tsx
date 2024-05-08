@@ -3,12 +3,11 @@ type Props = {
 }
 
 export const App = ({ name }: Props) => {
-  const a: string = 'Lorem ipsum'
-  const b: string = 'Dolor sit amet'
+  const a: string = 'Dolor sit amet and lorem ipsum'
 
   return (
     <div>
-      {name} {a} {b}
+      {name}
     </div>
   )
 }
