@@ -3,7 +3,7 @@ type Props = {
 }
 
 export const App = ({ name }: Props) => {
-  const a: boolean = "Lorem ipsum"
+  const a: string = 'Lorem ipsum'
 
   return (
     <div>
