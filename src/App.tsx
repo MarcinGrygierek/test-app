@@ -3,9 +3,11 @@ type Props = {
 }
 
 export const App = ({ name }: Props) => {
-  const a = 10
+  var a = 10
 
-  console.log(a)
-
-  return <div>{name}</div>
+  return (
+    <div>
+      {name} {a}
+    </div>
+  )
 }
